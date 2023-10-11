@@ -1,0 +1,228 @@
+@charset "UTF-8";
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 14px 89px 13px 89px;
+}
+.header__img {
+  width: 162px;
+  height: 44px;
+}
+
+.localisez {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 14px 89px 13px 89px;
+  flex-direction: row;
+  gap: 10px;
+  background: #eaeaea;
+  height: 50px;
+}
+.localisez .localisez__content {
+  color: #353535;
+}
+.localisez .localisez__ville {
+  padding: 20px;
+}
+.localisez a {
+  color: #353535;
+  text-decoration: none;
+}
+
+.reserver {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #f6f6f6;
+  padding: 30px;
+}
+.reserver .reserver__content {
+  text-align: center;
+}
+.reserver .reserver__titre {
+  font-size: 24px;
+  font-weight: 700;
+}
+.reserver .reserver__texte {
+  font-size: 18px;
+  font-weight: 300px;
+}
+.reserver .reserver__btn {
+  background: linear-gradient(193deg, #9356dc -11.44%, #ff79da 123.93%);
+  border-radius: 40px;
+  border: none;
+  width: 218px;
+  height: 50px;
+  margin-top: 40px;
+}
+.reserver .reserver__btn:hover {
+  cursor: pointer;
+  box-shadow: 5px 15px 21px rgba(0, 0, 0, 0.5019607843);
+}
+.reserver .btn--texte {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.fonctionnement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.fonctionnement .fonctionnement__titre {
+  margin-left: -120px;
+  padding: 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.fonctionnement__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  width: 322px;
+  height: 72px;
+  border-radius: 20px;
+  background: #f6f6f6;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+}
+.fonctionnement__btn .fonctionnement__numeros {
+  margin-left: -25px;
+  border-radius: 20px;
+  background: #9356dc;
+  width: 24px;
+  height: 24px;
+}
+.fonctionnement__btn .numeros--un {
+  padding: 1px 5px;
+  color: white;
+  background-color: #9356dc;
+  border-radius: 10px;
+  height: 17px;
+}
+.fonctionnement__btn .fonctionnement__choisir {
+  gap: 20px;
+  padding: 40px;
+}
+.fonctionnement__btn .choisir--icon {
+  padding: 20px;
+  margin-right: 25px;
+}
+.fonctionnement__btn .fa-store {
+  color: #9356dc;
+  font-size: 16px;
+}
+.fonctionnement__btn .fonctionnement__restaurant {
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 30px;
+}
+
+.restaurants {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1/4;
+  background: #f6f6f6;
+}
+.restaurants .restaurant {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.restaurants .restaurant .resto {
+  position: relative;
+  border-radius: 15px;
+  width: 350px;
+  height: 351px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1803921569);
+}
+.restaurants .restaurant .resto__img {
+  width: 350px;
+  object-fit: cover;
+}
+.restaurants .restaurant img {
+  width: 100%;
+  height: 220px;
+  border-radius: 14px 14px 0px 0px;
+  object-fit: cover;
+}
+.restaurants .restaurant .resto__content {
+  padding: 5px 181px 0px 0px;
+  color: black;
+  padding: 10px 0px 0px 13px;
+}
+.restaurants .restaurant .resto__nouve {
+  position: absolute;
+  top: 13px;
+  right: 8px;
+  background: #99e2d0;
+  padding: 4px 13px;
+  font-size: 14px;
+  color: #369658;
+  font-weight: 800;
+}
+.restaurants .restaurant .resto__titre {
+  font-size: 18px;
+  font-weight: 700;
+}
+.restaurants .restaurant .resto__méni {
+  font-size: 17px;
+  font-weight: 300;
+}
+.restaurants .restaurant .resto__heart {
+  position: absolute;
+  font-size: 25px;
+  top: 250px;
+  right: 8px;
+}
+.restaurants .restaurant .resto__heart:hover {
+  font-size: 25px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #2c423d;
+  padding: 18px 0px 18px 24px;
+  margin-top: -30px;
+}
+.footer a {
+  color: white;
+}
+.footer .footer__titre {
+  font-size: 20px;
+  font-family: "shrikhand";
+}
+.footer .footer__content {
+  margin-top: 15px;
+}
+.footer .footer__content {
+  margin-bottom: 8px;
+}
+.footer .fas {
+  margin-right: 10px;
+  color: white;
+}
+.footer .icon {
+  font-size: 10px;
+}/*# sourceMappingURL=style.css.map */

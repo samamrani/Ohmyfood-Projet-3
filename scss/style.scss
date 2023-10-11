@@ -16,7 +16,7 @@ body {
   @include flexMid;
   flex-direction: row;
   padding: 14px 89px 13px 89px;
-  .header__img {
+  &__img {
     width: 162px;
     height: 44px;
   }
@@ -43,23 +43,23 @@ body {
   }
 }
 
-.btn {
+.reserver {
   @include flexMid;
   flex-direction: column;
   background: #f6f6f6;
   padding: 30px;
-  .btn__content {
+  .reserver__content {
     text-align: center;
   }
-  .btn__titre {
+  .reserver__titre {
     font-size: 24px;
     font-weight: 700;
   }
-  .btn__texte {
+  .reserver__texte {
     font-size: 18px;
     font-weight: 300px;
   }
-  .button {
+  .reserver__btn {
     background: linear-gradient(193deg, #9356dc -11.44%, #ff79da 123.93%);
     border-radius: 40px;
     border: none;
@@ -67,11 +67,11 @@ body {
     height: 50px;
     margin-top: 40px;
   }
-  .button:hover {
+  .reserver__btn:hover {
     cursor: pointer;
     box-shadow: 5px 15px 21px #00000080;
   }
-  .button__texte {
+  .btn--texte {
     color: #fff;
     font-size: 16px;
     font-weight: 500;
@@ -79,54 +79,59 @@ body {
 }
 
 .fonctionnement {
-  display: flex;
+  @include flexMid;
   flex-direction: column;
   margin-bottom: 50px;
 
-  .choisir__titre {
+  .fonctionnement__titre {
+    margin-left: -120px;
+    padding: 30px;
     font-size: 24px;
     font-weight: 700;
   }
 }
-.choisir__btn {
-  display: flex;
+.fonctionnement__btn {
+  @include flexMid;
   flex-direction: row;
-  padding: 30px;
+  justify-content: space-around;
+  margin-bottom: 40px;
   width: 322px;
   height: 72px;
   border-radius: 20px;
   background: #f6f6f6;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
 
-  .titre__numeros {
+  .fonctionnement__numeros {
     margin-left: -25px;
     border-radius: 20px;
     background: #9356dc;
     width: 24px;
     height: 24px;
   }
-  .numeros__un {
+  .numeros--un {
     padding: 1px 5px;
     color: white;
     background-color: #9356dc;
     border-radius: 10px;
     height: 17px;
   }
-  .choisir__fonctionnement {
+
+  .fonctionnement__choisir {
     gap: 20px;
     padding: 40px;
   }
-  .choisir__icon__list {
+  .choisir--icon {
+    padding: 20px;
     margin-right: 25px;
   }
   .fa-store {
     color: #9356dc;
     font-size: 16px;
   }
-
-  .choisir__restaurant {
+  .fonctionnement__restaurant {
     font-size: 16px;
     font-weight: 500;
+    margin-right: 30px;
   }
 }
 
@@ -135,17 +140,16 @@ body {
   justify-content: center;
   grid-template-columns: 1/4;
 
-  grid-gap: 20px;
   background: #f6f6f6;
   .restaurant {
     padding-top: 30px;
-
+    padding-bottom: 30px;
     .resto {
       position: relative;
       border-radius: 15px;
       width: 350px;
       height: 351px;
-
+      margin-bottom: 30px;
       box-shadow: 0 5px 16px #0000002e;
     }
     .resto__img {
@@ -188,6 +192,8 @@ body {
     .resto__heart {
       position: absolute;
       font-size: 25px;
+      top: 250px;
+      right: 8px;
     }
     .resto__heart:hover {
       font-size: 25px;
@@ -195,6 +201,8 @@ body {
   }
 }
 .footer {
+  @include flexMid;
+  flex-direction: column;
   background-color: #2c423d;
   padding: 18px 0px 18px 24px;
   margin-top: -30px;
