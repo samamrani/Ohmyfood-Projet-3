@@ -1,0 +1,16 @@
+//declarer une variable (couleur?......
+@import "./utils/variable";
+//mixin pour stocker des ensembles de propriétes CSS
+// @INCLUDE utiliser mixin dans le code
+@import "./utils/mixins";
+
+@import "./general/global";
+@import "./general/animation";
+
+@import "./page/header";
+@import "./page/footer";
+
+@import "./layout/localisez";
+@import "./layout/reserver";
+@import "./layout/fonctionnement";
+@import "./layout/restaurant";

@@ -1,0 +1,9 @@
+.header {
+  @include flexMid;
+  flex-direction: row;
+  padding: 14px 89px 13px 89px;
+  &__img {
+    width: 162px;
+    height: 44px;
+  }
+}

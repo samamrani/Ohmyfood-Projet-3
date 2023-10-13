@@ -1,0 +1,29 @@
+.reserver {
+  @include flexMid;
+  flex-direction: column;
+  background: #f6f6f6;
+  padding: 20px;
+  gap: 20px;
+  &__content {
+    text-align: center;
+
+    justify-content: center;
+  }
+  &__titre {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  &__texte {
+    font-size: 18px;
+    font-weight: 300px;
+  }
+  &__btn {
+    background: linear-gradient(193deg, #9356dc -11.44%, #ff79da 123.93%);
+    border-radius: 40px;
+    border: none;
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
