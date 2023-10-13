@@ -1,4 +1,11 @@
 .reserver__btn:hover {
   cursor: pointer;
   box-shadow: 5px 15px 21px #00000080;
+  transform: scale(1.15);
+}
+.fa-heart:hover {
+  position: absolute;
+  color: #9356dc;
+  font-weight: bold;
+  transition-duration: 0.5s;
 }
