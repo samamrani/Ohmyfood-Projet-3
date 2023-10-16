@@ -41,6 +41,8 @@
     }
     .icon {
       color: #9356dc;
+
+      transition: transform 330ms ease-in-out;
     }
   }
 }
