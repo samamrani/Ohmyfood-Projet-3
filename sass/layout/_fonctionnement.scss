@@ -1,61 +1,70 @@
-.section__fonctionnement {
+.fonctionnement {
   display: grid;
   justify-content: center;
+  grid-gap: 20px;
 
-  .fonctionnement__titre {
-    padding: 20px;
+  &__titre {
+    padding-top: 30px;
+    font-weight: bold;
   }
-  .fonctionnement__content {
+
+  &__content {
     display: flex;
     justify-content: space-between;
-
     border-radius: 20px;
     background: #f6f6f6;
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
     width: 322px;
     height: 72px;
     margin-bottom: 40px;
-    margin-left: 20px;
-    .fonctionnement__rectangle {
-      display: flex;
-      align-items: center; /* Aligner verticalement au centre */
-      justify-content: space-between; /* Aligner horizontalement avec de l'espace entre les éléments */
-    }
-    .fonctionnement__numeros {
-      border-radius: 20px;
-      background: #9356dc;
-      width: 24px;
-      height: 24px;
-      margin-right: 40px;
-      margin-left: -10px;
-    }
-    .fonctionnement__numeros--un {
-      padding: 2px 6px;
-      color: white;
-    }
-    .fonctionnement__icon {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 30px;
-    }
-    .icon {
-      color: #9356dc;
+  }
 
-      transition: transform 330ms ease-in-out;
-    }
+  &__rectangle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__numeros {
+    border-radius: 20px;
+    background: #9356dc;
+    width: 24px;
+    height: 24px;
+    margin-right: 40px;
+    margin-left: -10px;
+  }
+
+  &__numeros--un {
+    padding: 2px 6px;
+    color: white;
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .icon {
+    color: #9356dc;
   }
 }
 
 @media (min-width: 1024px) {
-  .section__fonctionnement {
+  .fonctionnement {
     flex-direction: column;
 
-    .fonctionnement__groupe {
+    &__groupe {
       display: flex;
       flex-direction: row;
     }
-    .fonctionnement__rectangle {
+
+    &__content {
+      margin-left: 20px;
+    }
+
+    &__rectangle {
       flex-direction: row;
     }
   }

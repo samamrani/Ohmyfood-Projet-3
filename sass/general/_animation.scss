@@ -1,20 +1,38 @@
 //buton reserver
 .reserver__btn:hover {
-  cursor: pointer;
-  border-radius: 25px;
-
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.15) 0%,
-      rgba(255, 255, 255, 0.15) 100%
-    ),
-    linear-gradient(201deg, #9356dc -5.2%, #ff79da 110.74%);
-  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.35);
+  transform: scale(1.02);
+  opacity: 0.9;
 }
-//section Restaurants
+//animation pour le coeur
+
 .fa-heart:hover {
   position: absolute;
   color: #9356dc;
   font-weight: bold;
   transition-duration: 0.5s;
+}
+
+.resto__coeur {
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 2s;
+}
+.resto__coeur:hover {
+  opacity: 1;
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(#9356dc, #ff79da);
+  -webkit-background-clip: text;
+}
+
+//animation menu
+@keyframes slidAnim {
+  from {
+    transform: translatey(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translatey(0);
+    opacity: 1;
+  }
 }
