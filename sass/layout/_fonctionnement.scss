@@ -32,6 +32,9 @@
     height: 24px;
     margin-right: 40px;
     margin-left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   &__numeros--un {
@@ -58,10 +61,7 @@
     &__groupe {
       display: flex;
       flex-direction: row;
-    }
-
-    &__content {
-      margin-left: 20px;
+      gap: 20px;
     }
 
     &__rectangle {

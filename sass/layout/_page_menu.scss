@@ -24,18 +24,22 @@
   &__content {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 30px;
     padding: 20px;
   }
 
   &__coeur {
     display: flex;
+    width: 30px;
+    height: 30px;
+    position: relative;
   }
 
   .fa-heart {
     position: absolute;
     font-size: 25px;
-    top: 25px;
+    top: 0;
   }
 
   &__line {
@@ -83,6 +87,9 @@
 
   &__text {
     font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   &__prix {

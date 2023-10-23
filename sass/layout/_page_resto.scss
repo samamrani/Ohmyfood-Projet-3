@@ -1,9 +1,9 @@
 .resto {
   display: grid;
-  justify-content: center;
+
   background: #f6f6f6;
   grid-gap: 20px;
-
+  padding: 20px;
   &__menu {
     padding-top: 20px;
 
@@ -27,7 +27,7 @@
   }
 
   img {
-    width: 346px;
+    width: 100%;
     height: 231px;
     border-radius: 14px 14px 0px 0px;
     object-fit: cover;
@@ -80,11 +80,10 @@
 
     &__groupe {
       display: grid;
+      grid-gap: 40px;
       flex-direction: column;
-      align-items: center;
+
       grid-template-columns: repeat(2, 1fr);
-      grid-gap: 50px;
-      margin-bottom: 40px;
     }
 
     &__cadre {
@@ -96,7 +95,7 @@
     }
 
     img {
-      width: 490px;
+      width: 100%;
       height: 231px;
       object-fit: cover;
     }

@@ -50,10 +50,8 @@
   .footer {
     display: flex;
     flex-direction: row-reverse;
-    width: 1440px;
     height: 114px;
-
-    gap: 16px;
+    gap: 14px;
 
     &__logo {
       font-size: 18px;
