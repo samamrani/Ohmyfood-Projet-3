@@ -11,9 +11,11 @@
     font-style: italic;
     font-size: 18px;
   }
+
   a {
     color: white;
   }
+
   &__logo {
     font-family: "Shrikhand";
     font-size: 18px;
@@ -56,11 +58,13 @@
     &__logo {
       font-size: 18px;
     }
+
     &__titre {
       display: flex;
       flex-direction: row;
       align-items: center;
     }
+
     &__content {
       padding: 30px 25px;
     }

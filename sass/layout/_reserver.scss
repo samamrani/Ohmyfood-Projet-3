@@ -4,15 +4,18 @@
   background: #f6f6f6;
   padding: 30px;
   gap: 20px;
+
   &__content {
     text-align: center;
 
     justify-content: center;
   }
+
   &__titre {
     font-size: 24px;
     font-weight: 700;
   }
+
   &__texte {
     font-size: 18px;
     font-weight: 300;

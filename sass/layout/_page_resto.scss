@@ -1,15 +1,16 @@
 .resto {
   display: grid;
-
   background: #f6f6f6;
   grid-gap: 20px;
   padding: 20px;
+
   &__menu {
     padding-top: 20px;
 
     font-size: 22px;
     font-weight: bold;
   }
+
   &__groupe {
     margin-bottom: 10px;
   }

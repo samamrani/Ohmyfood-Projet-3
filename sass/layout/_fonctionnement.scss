@@ -1,7 +1,9 @@
 .fonctionnement {
-  display: grid;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
   grid-gap: 20px;
+  padding: 20px;
 
   &__titre {
     padding-top: 30px;
@@ -10,6 +12,7 @@
 
   &__content {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     border-radius: 20px;
     background: #f6f6f6;
@@ -17,6 +20,12 @@
     width: 322px;
     height: 72px;
     margin-bottom: 40px;
+  }
+  &__groupe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   &__rectangle {
