@@ -11,13 +11,34 @@ Le projet que j'ai mené à bien, consistant à intégrer une maquette depuis Fi
 
 Le développement de ce projet a été une occasion de mettre en avant mes compétences en CSS, en respectant les exigences et les meilleures pratiques suivantes :
 
-    Technologie utilisée : Le développement de ce projet a été réalisé exclusivement en utilisant CSS, sans faire appel à JavaScript. Le code CSS a été soigneusement organisé dans un ou plusieurs fichiers dédiés.
-    Mobile First : J'ai suivi une approche 'Mobile First', ce qui signifie que j'ai commencé par l'intégration de la maquette pour les appareils mobiles, puis j'ai adapté la conception pour les écrans desktop.
-    Pas de framework, utilisation de SASS : J'ai respecté la directive de ne pas utiliser de framework tout en exploitant la puissance de SASS.
-    Pas de styles en ligne : Aucun code CSS n'a été appliqué via un attribut 'style' dans une balise HTML.
-    Versionnement sur GitHub : J'ai géré le code du projet en utilisant Git et GitHub pour assurer une gestion efficace des versions. J'ai effectué des commits réguliers pour suivre l'avancement du projet.
-    Publication en ligne : Une fois le projet terminé, j'ai publié le site en utilisant GitHub Pages, ce qui permet de le rendre accessible en ligne pour une démonstration facile et un partage avec d'autres
+### Technologie utilisée
+
+Le développement de ce projet a été réalisé exclusivement en utilisant CSS, sans faire appel à JavaScript. Le code CSS a été soigneusement organisé dans un ou plusieurs fichiers dédiés.
+
+### Mobile First
+
+J'ai suivi une approche 'Mobile First', ce qui signifie que j'ai commencé par l'intégration de la maquette pour les appareils mobiles, puis j'ai adapté la conception pour les écrans desktop.
+
+### Pas de framework, utilisation de SASS
+
+J'ai respecté la directive de ne pas utiliser de framework tout en exploitant la puissance de SASS.
+
+### Pas de styles en ligne
+
+Aucun code CSS n'a été appliqué via un attribut 'style' dans une balise HTML.
+
+### Versionnement sur GitHub
+
+J'ai géré le code du projet en utilisant Git et GitHub pour assurer une gestion efficace des versions. J'ai effectué des commits réguliers pour suivre l'avancement du projet.
+
+### Publication en ligne
+
+Une fois le projet terminé, j'ai publié le site en utilisant GitHub Pages, ce qui permet de le rendre accessible en ligne pour une démonstration facile et un partage avec d'autres
 
 ## initialisation du projet
 
-L'initialisation du projet commence par l'exécution de la commande 'npm install'. Cette commande est essentielle car elle permet de télécharger et d'installer toutes les dépendances nécessaires pour le projet
+L'initialisation du projet commence par l'exécution de la commande
+
+    npm install
+
+Cette commande est essentielle car elle permet de télécharger et d'installer toutes les dépendances nécessaires pour le projet
