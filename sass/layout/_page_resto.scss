@@ -64,7 +64,11 @@
     margin-top: 5px;
     font-size: 17px;
   }
-
+  &__coeur {
+    opacity: 0;
+    transition-property: all;
+    transition-duration: 2s;
+  }
   .fa-heart {
     position: absolute;
     font-size: 25px;

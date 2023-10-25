@@ -4,7 +4,6 @@
   opacity: 0.9;
 }
 //animation pour le coeur
-
 .fa-heart:hover {
   position: absolute;
   color: #9356dc;
@@ -12,11 +11,6 @@
   transition-duration: 0.5s;
 }
 
-.resto__coeur {
-  opacity: 0;
-  transition-property: all;
-  transition-duration: 2s;
-}
 .resto__coeur:hover {
   opacity: 1;
   color: transparent;
