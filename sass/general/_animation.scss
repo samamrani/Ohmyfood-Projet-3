@@ -3,14 +3,7 @@
   transform: scale(1.02);
   opacity: 0.9;
 }
-//animation pour le coeur
-.fa-heart:hover {
-  position: absolute;
-  color: #9356dc;
-  font-weight: bold;
-  transition-duration: 0.5s;
-}
-
+/*animation pour le coeur
 .resto__coeur:hover {
   opacity: 1;
   color: transparent;
@@ -19,6 +12,12 @@
   -webkit-background-clip: text;
 }
 
+.fa-heart:hover {
+  position: absolute;
+  font-weight: bold;
+  transition-duration: 0.5s;
+}
+*/
 //animation menu
 @keyframes slidAnim {
   from {
@@ -30,15 +29,9 @@
     opacity: 1;
   }
 }
+
 /*animation loader*/
-@keyframes animLoader {
-  0% {
-    transform: rotate(0deg) scale(1);
-  }
-  100% {
-    transform: rotate(360deg) scale(0);
-  }
-}
+//affichage/dispariation du loader
 @keyframes animFlash {
   0%,
   99% {
@@ -48,5 +41,14 @@
   100% {
     opacity: 0;
     z-index: -1;
+  }
+}
+//animation des 1/2 cercles dans le loader
+@keyframes animLoader {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  100% {
+    transform: rotate(360deg) scale(0);
   }
 }

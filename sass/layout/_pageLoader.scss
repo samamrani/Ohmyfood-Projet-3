@@ -5,9 +5,7 @@
   inset: 0;
   z-index: 1;
   background-color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexMid;
   animation: animFlash 4s;
   animation-fill-mode: forwards;
 }
